@@ -48,7 +48,7 @@ const App = () => {
                             <span> {Math.round(weather.main.pressure)} Pa</span>
                         </h3>
                         <h3 className='rows'  style={{letterSpacing: "2px"}}>Sunrise (IST)
-                            <span> {new Date((weather.sys.sunrise)*1000).toLocaleTimeString([], {timeStyle: "short"})} </span>
+                            <span> {new Date((weather.sys.sunrise)*1000).toLocaleTimeString([], {timeStyle: 'short'})} </span>
                         </h3>
                         <h3 className='rows'  style={{letterSpacing: "2px"}}>Sunset (IST)
                             <span> {new Date((weather.sys.sunset)*1000).toLocaleTimeString([], {timeStyle: 'short'})} </span>
